@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Milon\\Bardcode": "src/"
+            "BulgarianHealer\\Bardcode": "src/"
         }
     },
     "minimum-stability": "stable",
