@@ -25,11 +25,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Milon\\Barcode\\BarcodeServiceProvider"
+                "BulgarianHealer\\Bardcode\\BarcodeServiceProvider"
             ],
             "aliases": {
-                "DNS1D": "Milon\\Barcode\\Facades\\DNS1DFacade",
-                "DNS2D": "Milon\\Barcode\\Facades\\DNS2DFacade"
+                "DNS1D": "BulgarianHealer\\Bardcode\\Facades\\DNS1DFacade",
+                "DNS2D": "BulgarianHealer\\Bardcode\\Facades\\DNS2DFacade"
             }
         }
     }

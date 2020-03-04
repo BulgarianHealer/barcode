@@ -1,6 +1,6 @@
 <?php
 
-namespace Milon\Barcode;
+namespace BulgarianHealer\Bardcode;
 
 use Exception;
 
