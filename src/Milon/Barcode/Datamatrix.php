@@ -1,6 +1,6 @@
 <?php 
 
-namespace Milon\Bardcode;
+namespace Milon\Barcode;
 
 //============================================================+
 // File name   : datamatrix.php

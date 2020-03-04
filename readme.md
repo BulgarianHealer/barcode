@@ -62,7 +62,7 @@ Once this operation completes, the final step is to add the service provider. Op
 ```php
 'providers' => [
     ...
-    Milon\Bardcode\BarcodeServiceProvider::class,
+    Milon\Barcode\BarcodeServiceProvider::class,
     ...
 ]
 ```
@@ -72,7 +72,7 @@ For version 4.* add these lines on `app/config/app.php` file-
 ```php
 'providers' => array(
     ...
-    'Milon\Bardcode\BarcodeServiceProvider',
+    'Milon\Barcode\BarcodeServiceProvider',
 )
 ```
 
@@ -93,8 +93,8 @@ Now add the alias.
 ```php
 'aliases' => [
     ...
-    'DNS1D' => Milon\Bardcode\Facades\DNS1DFacade::class,
-    'DNS2D' => Milon\Bardcode\Facades\DNS2DFacade::class,
+    'DNS1D' => Milon\Barcode\Facades\DNS1DFacade::class,
+    'DNS2D' => Milon\Barcode\Facades\DNS2DFacade::class,
 ]
 ```
 
@@ -103,8 +103,8 @@ For version 4.2 alias will be like this-
 ```php
 'aliases' => array(
     ...
-    'DNS1D' => 'Milon\Bardcode\Facades\DNS1DFacade',
-    'DNS2D' => 'Milon\Bardcode\Facades\DNS2DFacade',
+    'DNS1D' => 'Milon\Barcode\Facades\DNS1DFacade',
+    'DNS2D' => 'Milon\Barcode\Facades\DNS2DFacade',
 )
 ```
 
@@ -208,7 +208,7 @@ You can use this library without using Laravel.
 Example:
 
 ```
-use \Milon\Bardcode\DNS1D;
+use \Milon\Barcode\DNS1D;
 
 $d = new DNS1D();
 $d->setStorPath(__DIR__."/cache/");

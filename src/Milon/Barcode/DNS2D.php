@@ -1,6 +1,6 @@
 <?php
 
-namespace Milon\Bardcode;
+namespace Milon\Barcode;
 
 //============================================================+
 // File name   : tcpdf_barcodes_2d.php
@@ -49,9 +49,9 @@ namespace Milon\Bardcode;
  * @author Nicola Asuni
  */
 
-use Milon\Bardcode\QRcode;
-use Milon\Bardcode\Datamatrix;
-use Milon\Bardcode\PDF417;
+use Milon\Barcode\QRcode;
+use Milon\Barcode\Datamatrix;
+use Milon\Barcode\PDF417;
 use Illuminate\Support\Str;
 
 /*
