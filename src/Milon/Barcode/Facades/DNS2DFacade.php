@@ -1,4 +1,4 @@
-<?php namespace BulgarianHealer\Bardcode\Facades;
+<?php namespace Milon\Bardcode\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

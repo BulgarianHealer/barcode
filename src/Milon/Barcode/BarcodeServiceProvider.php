@@ -1,6 +1,6 @@
 <?php 
 
-namespace BulgarianHealer\Bardcode;
+namespace Milon\Bardcode;
 
 use Illuminate\Support\ServiceProvider;
 

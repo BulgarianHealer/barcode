@@ -1,6 +1,6 @@
 <?php
 
-namespace BulgarianHealer\Bardcode;
+namespace Milon\Bardcode;
 
 //============================================================+
 // File name   : tcpdf_barcodes_2d.php
@@ -49,9 +49,9 @@ namespace BulgarianHealer\Bardcode;
  * @author Nicola Asuni
  */
 
-use BulgarianHealer\Bardcode\QRcode;
-use BulgarianHealer\Bardcode\Datamatrix;
-use BulgarianHealer\Bardcode\PDF417;
+use Milon\Bardcode\QRcode;
+use Milon\Bardcode\Datamatrix;
+use Milon\Bardcode\PDF417;
 use Illuminate\Support\Str;
 
 /*

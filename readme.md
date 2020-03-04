@@ -62,7 +62,7 @@ Once this operation completes, the final step is to add the service provider. Op
 ```php
 'providers' => [
     ...
-    BulgarianHealer\Bardcode\BarcodeServiceProvider::class,
+    Milon\Bardcode\BarcodeServiceProvider::class,
     ...
 ]
 ```
@@ -72,7 +72,7 @@ For version 4.* add these lines on `app/config/app.php` file-
 ```php
 'providers' => array(
     ...
-    'BulgarianHealer\Bardcode\BarcodeServiceProvider',
+    'Milon\Bardcode\BarcodeServiceProvider',
 )
 ```
 
@@ -93,8 +93,8 @@ Now add the alias.
 ```php
 'aliases' => [
     ...
-    'DNS1D' => BulgarianHealer\Bardcode\Facades\DNS1DFacade::class,
-    'DNS2D' => BulgarianHealer\Bardcode\Facades\DNS2DFacade::class,
+    'DNS1D' => Milon\Bardcode\Facades\DNS1DFacade::class,
+    'DNS2D' => Milon\Bardcode\Facades\DNS2DFacade::class,
 ]
 ```
 
@@ -103,8 +103,8 @@ For version 4.2 alias will be like this-
 ```php
 'aliases' => array(
     ...
-    'DNS1D' => 'BulgarianHealer\Bardcode\Facades\DNS1DFacade',
-    'DNS2D' => 'BulgarianHealer\Bardcode\Facades\DNS2DFacade',
+    'DNS1D' => 'Milon\Bardcode\Facades\DNS1DFacade',
+    'DNS2D' => 'Milon\Bardcode\Facades\DNS2DFacade',
 )
 ```
 
@@ -208,7 +208,7 @@ You can use this library without using Laravel.
 Example:
 
 ```
-use \BulgarianHealer\Bardcode\DNS1D;
+use \Milon\Bardcode\DNS1D;
 
 $d = new DNS1D();
 $d->setStorPath(__DIR__."/cache/");

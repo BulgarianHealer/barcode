@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "BulgarianHealer\\Bardcode": "src/"
+            "Milon\\Bardcode": "src/"
         }
     },
     "minimum-stability": "stable",
@@ -25,11 +25,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BulgarianHealer\\Bardcode\\BarcodeServiceProvider"
+                "Milon\\Bardcode\\BarcodeServiceProvider"
             ],
             "aliases": {
-                "DNS1D": "BulgarianHealer\\Bardcode\\Facades\\DNS1DFacade",
-                "DNS2D": "BulgarianHealer\\Bardcode\\Facades\\DNS2DFacade"
+                "DNS1D": "Milon\\Bardcode\\Facades\\DNS1DFacade",
+                "DNS2D": "Milon\\Bardcode\\Facades\\DNS2DFacade"
             }
         }
     }

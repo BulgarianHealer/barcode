@@ -1,6 +1,6 @@
 <?php
 
-namespace BulgarianHealer\Bardcode;
+namespace Milon\Bardcode;
 
 //============================================================+
 // File name   : tcpdf_barcodes_1d.php
@@ -1469,7 +1469,7 @@ class DNS1D {
             // add check digit
             $code .= $r;
         } elseif ($r !== intval($code[$data_len])) {
-			throw new \BulgarianHealer\Bardcode\WrongCheckDigitException($r, intval($code[$data_len]));
+			throw new \Milon\Bardcode\WrongCheckDigitException($r, intval($code[$data_len]));
         }
         if ($len == 12) {
             // UPC-A
