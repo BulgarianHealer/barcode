@@ -1,14 +1,14 @@
-[![Packagist Downloads](https://img.shields.io/packagist/dt/milon/barcode.svg)](https://packagist.org/packages/milon/barcode) [![Stable version](https://img.shields.io/packagist/v/milon/barcode.svg)](https://packagist.org/packages/milon/barcode) [![License](https://img.shields.io/packagist/l/milon/barcode.svg)](https://packagist.org/packages/milon/barcode)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/bulgarianhealer/barcode.svg)](https://packagist.org/packages/bulgarianhealer/barcode) [![Stable version](https://img.shields.io/packagist/v/bulgarianhealer/barcode.svg)](https://packagist.org/packages/bulgarianhealer/barcode) [![License](https://img.shields.io/packagist/l/bulgarianhealer/barcode.svg)](https://packagist.org/packages/bulgarianhealer/barcode)
 
 This is a barcode generation package inspired by <https://github.com/tecnickcom/TCPDF>. Actually, I use that package's underline classes for generating barcodes. This package is just a wrapper of that package and adds compatibility with Laravel 5.
 
 I used the following classes of that package.
 
-- src/Milon/Barcode/Datamatrix.php (include/barcodes/datamatrix.php)
-- src/Milon/Barcode/DNS1D.php (tcpdf_barcodes_1d.php)
-- src/Milon/Barcode/DNS2D.php (tcpdf_barcodes_2d.php)
-- src/Milon/Barcode/PDF417.php (include/barcodes/pdf417.php)
-- src/Milon/Barcode/QRcode.php (include/barcodes/qrcode.php)
+- src/bulgarianhealer/barcode/Datamatrix.php (include/barcodes/datamatrix.php)
+- src/bulgarianhealer/barcode/DNS1D.php (tcpdf_barcodes_1d.php)
+- src/bulgarianhealer/barcode/DNS2D.php (tcpdf_barcodes_2d.php)
+- src/bulgarianhealer/barcode/PDF417.php (include/barcodes/pdf417.php)
+- src/bulgarianhealer/barcode/QRcode.php (include/barcodes/qrcode.php)
 
 [Read More on TCPDF website](http://www.tcpdf.org)
 
@@ -21,15 +21,15 @@ This package relies on [php-gd](http://php.net/manual/en/book.image.php) extensi
 Begin by installing this package through Composer. Just run following command to terminal-
 
 ```
-composer require milon/barcode
+composer require bulgarianhealer/barcode
 ```
 
-You can also edit your project's `composer.json` file to require `milon/barcode`.
+You can also edit your project's `composer.json` file to require `bulgarianhealer/barcode`.
 
 ```
 "require": {
     ...
-    "milon/barcode": "^6.0"
+    "bulgarianhealer/barcode": "^6.0"
 }
 ```
 
@@ -38,7 +38,7 @@ For Laravel 5.0 and 5.1 use this-
 ```
 "require": {
     ...
-    "milon/barcode": "^5.1"
+    "bulgarianhealer/barcode": "^5.1"
 }
 ```
 
@@ -47,7 +47,7 @@ For Laravel 4.0, 4.1 and 4.2 use this-
 ```
 "require": {
     ...
-    "milon/barcode": "^4.2"
+    "bulgarianhealer/barcode": "^4.2"
 }
 ```
 
@@ -83,7 +83,7 @@ If you want to change Bar-code's settings (Store Path etc.), you need to publish
 php artisan vendor:publish
 
 # Laravel 4.x
-php artisan config:publish milon/barcode
+php artisan config:publish bulgarianhealer/barcode
 ```
 
 Make sure you have write permission to the storage path. By default it sets to `/storage` folder.
